@@ -15,14 +15,14 @@
   <dependencies>
 
 
-    <!-- 单元测试 -->
+    <!-- 1.单元测试 -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
     </dependency>
 
-    <!-- 1.日志 -->
+    <!-- 2.logback日志 -->
     <!-- 实现slf4j接口并整合 -->
     <dependency>
       <groupId>ch.qos.logback</groupId>
@@ -31,8 +31,7 @@
     </dependency>
 
 
-    <!--spring jar-->
-
+    <!--3.spring相关的jar-->
     <!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
     <dependency>
       <groupId>org.springframework</groupId>
@@ -95,7 +94,7 @@
       <version>${spring.version}</version>
     </dependency>
 
-
+    <!--4. servlet-->
     <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
     <dependency>
       <groupId>javax.servlet</groupId>
@@ -105,7 +104,7 @@
     </dependency>
 
 
-    <!--myBatis-->
+    <!--5.myBatis & mysql & dataSource-->
     <!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->
     <dependency>
       <groupId>org.mybatis</groupId>
@@ -127,7 +126,7 @@
       <scope>runtime</scope>
     </dependency>
 
-
+    <!--datasource-->
     <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
     <dependency>
       <groupId>com.alibaba</groupId>
